@@ -12,11 +12,13 @@
    }
    
    .card-img {
-    background-color: #ffcaa6;
+    position: relative;
+    padding-left: 15px;
     height: 40%;
     width: 40%;
     border-radius: .5rem;
     transition: .3s ease;
+    
    }
    
    .card-info {
