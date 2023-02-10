@@ -2,3 +2,14 @@ body{
     background-color: black;
     color: white;
 }
+#bienvenida{
+    text-align: center;
+    background-color: orangered;
+    font-size: 170%;
+}
+#imghistoria{
+    width: 500px;
+    height: 400px;
+    left: 40px;
+    position: relative;
+}
