@@ -1,6 +1,22 @@
 body{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.963);
     color: white;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+li{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    color: orangered;
+    border-bottom: solid 5px orangered;
+    padding-bottom: 10px;
 }
 #bienvenida{
     text-align: center;
@@ -10,6 +26,20 @@ body{
 #imghistoria{
     width: 500px;
     height: 400px;
+    margin-right: 50px;
     left: 40px;
     position: relative;
+
 }
+
+#queHacemos{
+    display: flex;
+    text-align: center;
+    font-size: 175%;
+}
+#historia{
+    display: flex;
+    font-size: 20px;
+   
+}
+
