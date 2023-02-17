@@ -205,3 +205,56 @@ li:hover{
     color: #aaa;
     border-radius: 5px;
   }
+  
+#boton{
+    
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -80px;
+  
+
+}
+button {
+background-color: white;
+color: orangered;
+border-radius: 10em;
+font-size:8 px;
+font-weight: 600;
+padding: 0 2em;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+border: 1px solid orangered;
+box-shadow: 0 0 0 0 orangered;
+width: 100px;
+height: 30px;
+margin-right: 10px;
+}
+
+button:hover {
+transform: translateY(-4px) translateX(-2px);
+box-shadow: 2px 5px 0 0 orangered;
+};
+
+button:active {
+transform: translateY(2px) translateX(1px);
+box-shadow: 0 0 0 0 orangered;
+}
+
+nav{
+  display: flex;
+  justify-content: center; /*Centra horizontalmente*/
+  align-items: center;
+}
+nav ul{
+    display: flex;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bolder;
+    text-transform: uppercase;
+   
+}
