@@ -1,3 +1,10 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    
+}
+
 article{
     border-bottom: solid 1px gray;
 }
